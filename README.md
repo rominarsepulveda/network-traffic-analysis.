@@ -1,22 +1,17 @@
-# Network Traffic Analysis Project
+# Network Traffic Analysis Lab
 
-## 🔍 Overview
-As part of my continuous hands-on learning in cybersecurity and IT, I built this practical lab to practice analyzing network traffic and inspecting packet data. The goal was to understand normal protocol behavior and learn how to spot potential anomalies using practical inspection tools.
+## 🔍 About the Project
+This repository documents a practical lab focused on network traffic analysis, completed as part of my cybersecurity training. The goal was to practice using packet analysis tools to inspect network traffic and understand basic protocol behavior.
 
-## 🛠️ Tools & Skills Applied
-- **Wireshark:** Used for capturing and inspecting raw network packets.
-- **TCP/IP Analysis:** Examining packet headers, flags, and connection handshakes.
-- **Security Mindset:** Practicing how to isolate protocols and identify irregular traffic patterns or exposure risks.
+## 🛠️ Tools Used
+- **Wireshark:** Used for opening, viewing, and navigating packet capture files.
+- **TCP/IP Fundamentals:** Reviewing packet headers, flags, and connection steps.
 
-## 📋 What I Did (Methodology)
-1. **Lab Setup & Capture:** Captured sample traffic in a controlled environment to simulate real network activity.
-2. **Filtering & Inspection:** Applied display filters (such as `http` or `tcp.flags.syn == 1`) to focus on specific connection states and protocols.
-3. **Anomaly Review:** Analyzed source/destination details and packet structures to spot unexpected behaviors.
+## 📋 What I Did
+1. **Explored Captures:** Loaded sample traffic files into Wireshark to examine real-world network data.
+2. **Applied Filters:** Used display filters to isolate specific protocols and analyze connection states.
+3. **Reviewed Findings:** Inspected packet details to understand how data travels across networks.
 
 ## 🚀 Key Takeaways
-- Gained hands-on confidence in reading and interpreting raw network logs.
-- Strengthened my understanding of core networking layers, which is essential for troubleshooting and IT support roles.
-- Blended my structured problem-solving background with technical security principles.
-
----
-*Created as part of Romina's Cybersecurity & IT Portfolio.*
+- Gained hands-on confidence reading raw packet data and using standard network analysis tools.
+- Strengthened my core networking foundation, which is essential for troubleshooting and IT support roles.
